@@ -1,18 +1,24 @@
 # AIM
-### To remove outliers.
+T detect and remove the outliers in the given data set and save the final data.
 
 # ALGORITHM
-(1) Remove outliers using IQR 
+## STEP 1  
+Import the required packages(pandas,numpy,scipy).
+## STEP 2  
+Read the given csv file.
+## STEP 3  
+Convert the file into a dataframe and get information of the data.
+## STEP 4  
+Remove the non numerical data columns using drop() method.
+## STEP 5  
+Detect the outliers in the data set using z scores method.
+## STEP 6  
+Remove the outliers by z scores and list manupilation or by using Interquartile Range(IQR).
+## STEP 7  
+Check if the outliersare removed from data set using graphical methods.
+## STEP 8
+Save the final data set into the file.
 
-(2) After removing outliers in step 1, you get a new dataframe.
-
-(3) use zscore of 3 to remove outliers. This is quite similar to IQR and you will get exact same result
-
-(4) for the data set height_weight.csv find the following
-
-    (i) Using IQR detect weight outliers and print them
-
-    (ii) Using IQR, detect height outliers and print them
 
 
 # CODE
