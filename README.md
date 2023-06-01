@@ -1,5 +1,5 @@
 # AIM
-T detect and remove the outliers in the given data set and save the final data.
+To detect and remove the outliers in the given data set and save the final data.
 
 # ALGORITHM
 ## STEP 1  
